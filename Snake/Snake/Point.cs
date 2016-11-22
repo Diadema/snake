@@ -46,6 +46,11 @@ namespace Snake
             }
         }
 
+        public void Clear()
+        {
+            sym = ' ';
+            Drow();
+        }
 
         public void Drow()
     {
